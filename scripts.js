@@ -20,7 +20,7 @@ const img = document.getElementsByClassName("img-fixed");
 //const fly = document.getElementsByClassName(".infocard");
 const fly = document.querySelectorAll(".infocard");
 //Paa este ejercicio de sustituir el atributo src por imagenes es con for porque tiene
-//que hacer un recorri do
+//que hacer un recorrido
 for (let i = 0; i < img.length; i++) {
     img[i].src = `https://media.giphy.com/media/2v170e71aanfi/giphy.gif`;
 }
