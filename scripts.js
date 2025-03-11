@@ -22,7 +22,7 @@ for (let i = 0; i < img.length; i++) {
     img[i].src = `https://media.giphy.com/media/2v170e71aanfi/giphy.gif`;
 }
 
-for ( let i = 0; i < fly.length; i++){
+for (let i = 0; i < fly.length; i++){
     fly[i].style.background = "Blue";
 }
 
