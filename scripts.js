@@ -4,10 +4,9 @@ document.querySelector("src");
 document.getElementById("gen1");
 gen1.style.background = "Red";
 //Enlace de la pagina
-console.log(window.parent.location.href);
-
+console.log(window./*parent.*/location.href);
 //Dominio de la pagina
-console.log(window.parent.location.hostname);
+console.log(window./*parent.*/location.hostname);
 
 //Nodos de imagen
 const para = document.getElementsByClassName("infocard");
