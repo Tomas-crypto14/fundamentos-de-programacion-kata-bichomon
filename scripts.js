@@ -1,9 +1,9 @@
 console.log(document.title);
 document.querySelector('.infocard');
 document.querySelector("src");
-document.getElementById("gen1");
+const kanto = document.getElementById("gen1");
 const parrafo = document.getElementById("gen-1");
-gen1.style.background = "Red";
+kanto.style.background = "Red";
 parrafo.textContent = "Generasión 1 Pokimon";
 //Enlace de la pagina
 console.log(window./*parent.*/location.href);
